@@ -19,11 +19,17 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 def get_max_n_shots(train_df: pd.DataFrame, test_df: pd.DataFrame, tokenizer: PreTrainedTokenizer,
                     prompt_size: int) -> int:
     n_tokens_between_shots = n_tokens_in_prompt(tokenizer, TEXT_BETWEEN_SHOTS)
+    # print(f"n_tokens_between_shots = {n_tokens_between_shots}")
     shot_lengths = train_df[N_TOKENS] + n_tokens_between_shots
+    # print(f"shot_lengths = {shot_lengths}")
     prompt_length_percentile = shot_lengths.quantile(0.9)
+    # print(f"prompt_length_percentile = {prompt_length_percentile}")
     longest_test_prompt = test_df[N_TOKENS].max()
     _logger.info(f"longest_test_prompt = {longest_test_prompt}")
     max_possible_shots_length = prompt_size - longest_test_prompt
+    # print(f"max_possible_shots_length = {max_possible_shots_length}")
+    # print("return", int(np.floor(max_possible_shots_length / prompt_length_percentile)))
+    # print("\n\n")
     return int(np.floor(max_possible_shots_length / prompt_length_percentile))
 
 

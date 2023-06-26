@@ -22,7 +22,7 @@ class ExperimentManager:
     def __init__(self, test_df: pd.DataFrame, train_df: pd.DataFrame, model: GPT2LMHeadWithPCWModel,
                  labels: List[str] = None, random_seed: int = 42, subsample_test_set: int = 250,
                  n_shots_per_window: int = None):
-        if subsample_test_set < len(test_df):
+        if (subsample_test_set is None) or (subsample_test_set < len(test_df)):
             np.random.seed(random_seed)
             test_df = test_df.sample(subsample_test_set)
         self.test_df = test_df

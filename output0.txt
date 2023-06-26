@@ -1,0 +1,174 @@
+Some weights of GPT2LMHeadWithPCWModel were not initialized from the model checkpoint at gpt2-large and are newly initialized because the shapes did not match:
+- h.0.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.1.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.2.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.3.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.4.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.5.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.6.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.7.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.8.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.9.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.10.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.11.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.12.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.13.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.14.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.15.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.16.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.17.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.18.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.19.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.20.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.21.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.22.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.23.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.24.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.25.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.26.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.27.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.28.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.29.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.30.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.31.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.32.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.33.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.34.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.35.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset ag_news (/home/b.nativi/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 210.38it/s]
+loaded 120000 training samples & 7600 test samples
+overriding default label mapping
+['World -> world', 'Sports -> sports', 'Business -> business', 'Sci/Tech -> technology']
+filtering test set:
+filtered 73 from  dataset due to extreme length
+longest remaining prompt according to tokenizer: 124
+filtering train set:
+filtered 1148 from  dataset due to extreme length
+longest remaining prompt according to tokenizer: 127
+longest_test_prompt = 124
+Found max n shot per window = 11
+Provided labels: dict_values(['world', 'sports', 'business', 'technology'])
+Provided labels average n_tokens: 1.0
+shortened labels average n_tokens: 1.0
+  0%|          | 0/1 [00:00<?, ?it/s]starting with n = 33
+accuracy = 1.0
+100%|██████████| 1/1 [00:01<00:00,  1.40s/it]100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+Some weights of GPT2LMHeadWithPCWModel were not initialized from the model checkpoint at gpt2-xl and are newly initialized because the shapes did not match:
+- h.0.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.1.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.2.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.3.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.4.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.5.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.6.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.7.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.8.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.9.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.10.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.11.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.12.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.13.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.14.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.15.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.16.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.17.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.18.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.19.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.20.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.21.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.22.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.23.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.24.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.25.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.26.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.27.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.28.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.29.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.30.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.31.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.32.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.33.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.34.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.35.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.36.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.37.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.38.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.39.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.40.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.41.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.42.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.43.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.44.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.45.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.46.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+- h.47.attn.bias: found shape torch.Size([1, 1, 1024, 1024]) in the checkpoint and torch.Size([1, 1, 3072, 3072]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset ag_news (/home/b.nativi/.cache/huggingface/datasets/ag_news/default/0.0.0/bc2bcb40336ace1a0374767fc29bb0296cdaf8a6da7298436239c54d79180548)
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 164.95it/s]
+loaded 120000 training samples & 7600 test samples
+overriding default label mapping
+['World -> world', 'Sports -> sports', 'Business -> business', 'Sci/Tech -> technology']
+filtering test set:
+filtered 73 from  dataset due to extreme length
+longest remaining prompt according to tokenizer: 124
+filtering train set:
+filtered 1148 from  dataset due to extreme length
+longest remaining prompt according to tokenizer: 127
+longest_test_prompt = 124
+Found max n shot per window = 11
+Provided labels: dict_values(['world', 'sports', 'business', 'technology'])
+Provided labels average n_tokens: 1.0
+shortened labels average n_tokens: 1.0
+  0%|          | 0/1 [00:00<?, ?it/s]starting with n = 33
+  0%|          | 0/1 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/b.nativi/Parallel-Context-Windows/run_evaluation.py", line 85, in <module>
+    run_pcw_experiment(**vars(args))
+  File "/home/b.nativi/Parallel-Context-Windows/run_evaluation.py", line 57, in run_pcw_experiment
+    accuracies = em.run_experiment_across_shots(n_shots, n_runs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/Parallel-Context-Windows/experiment_manager.py", line 144, in run_experiment_across_shots
+    accuracies[i, j] = self.get_few_shots_acc(windows_few_shots)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/Parallel-Context-Windows/experiment_manager.py", line 96, in get_few_shots_acc
+    predicted_labels = self.get_predicted_labels(windows_few_shot)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/Parallel-Context-Windows/experiment_manager.py", line 100, in get_predicted_labels
+    windows_cache = self.model.get_contexts_cache(windows_few_shots)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/Parallel-Context-Windows/modeling_gpt2_with_pcw.py", line 100, in get_contexts_cache
+    windows = self._get_windows(contexts)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/Parallel-Context-Windows/modeling_gpt2_with_pcw.py", line 90, in _get_windows
+    output = self(**encoded_input_window)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1043, in forward
+    transformer_outputs = self.transformer(
+                          ^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 887, in forward
+    outputs = block(
+              ^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 388, in forward
+    attn_outputs = self.attn(
+                   ^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 329, in forward
+    attn_output, attn_weights = self._attn(query, key, value, attention_mask, head_mask)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/b.nativi/anaconda3/envs/pcw/lib/python3.11/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 200, in _attn
+    attn_weights = torch.where(causal_mask, attn_weights.to(attn_weights.dtype), mask_value)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 42.00 MiB (GPU 0; 23.65 GiB total capacity; 21.83 GiB already allocated; 42.94 MiB free; 22.77 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
